@@ -72,7 +72,7 @@ Alcohol use is a well-known risk factor for certain conditions, such as cirrhosi
 <p>Test mode:&nbsp;&nbsp;&nbsp; evaluate on training data</p>
 <p>=== Clustering model (full training set) ===</p>
 <p>kMeans</p>
-<p><img src="https://github.com/Way4ward17/ML---Alchohol-Effect-In-Student-Prediction/blob/master/Picture7.png" alt="" width="700" height="450" /></p>
+<p><img src="https://github.com/Way4ward17/ML---Alchohol-Effect-In-Student-Prediction/blob/master/Picture71.png" alt="" width="700" height="450" /></p>
 <p>Time taken to build model (full training data) : 0.01 seconds</p>
 <p>=== Model and evaluation on training set ===</p>
 <p>&nbsp;</p>
@@ -90,7 +90,7 @@ Alcohol use is a well-known risk factor for certain conditions, such as cirrhosi
 <p><strong>4.3.4&nbsp;&nbsp;&nbsp; TESTING MODEL</strong></p>
 <p>In other to test the model trained. We have to import an already converted CSV file into and arff format in the preprocessing stage. We then import it to dataset. As seen in the screenshot below, the sample dataset contain 166 samples and the test information are detailed below.</p>
 <p><strong>=== Run information ===</strong></p>
-<p>&nbsp;<img src="https://github.com/Way4ward17/ML---Alchohol-Effect-In-Student-Prediction/blob/master/Picture8.png" alt="" width="700" height="450" /></p>
+<p>&nbsp;<img src="https://github.com/Way4ward17/ML---Alchohol-Effect-In-Student-Prediction/blob/master/Picture7.png" alt="" width="700" height="450" /></p>
 <p>Scheme:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 8 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10</p>
 <p>Relation:&nbsp;&nbsp;&nbsp;&nbsp; datasetHardcopy copySmail-weka.filters.unsupervised.attribute.Remove-R1</p>
 <p>Instances:&nbsp;&nbsp;&nbsp; 166</p>
@@ -108,7 +108,7 @@ Alcohol use is a well-known risk factor for certain conditions, such as cirrhosi
 <p>Test mode:&nbsp;&nbsp;&nbsp; user supplied test set: 166 instances</p>
 <p>=== Clustering model (full training set) ===</p>
 <p>kMeans</p>
-<p><img src="https://github.com/Way4ward17/ML---Alchohol-Effect-In-Student-Prediction/blob/master/Picture9.png" alt="" width="700" height="450" /></p>
+<p><img src="https://github.com/Way4ward17/ML---Alchohol-Effect-In-Student-Prediction/blob/master/Picture8.png" alt="" width="700" height="450" /></p>
 <p>Time taken to build model (full training data) : 0 seconds</p>
 <p><strong>=== Evaluation on test set ===</strong></p>
 <p>Clustered Instances</p>
